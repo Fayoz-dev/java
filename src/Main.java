@@ -1,21 +1,16 @@
 import java.util.Scanner;
 
 public class Main {
-
+    // 1*k+2*k+3*k+...+nk
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Biror son kiriting: ");
-        int n = sc.nextInt();
-        int count = 0;
-     for (int i=1; i<=n; i++){
-         if (n % i == 0){
-             count++;
-         }
-     }
-        if (count == 2){
-            System.out.println("Tub son");
-        }else {
-            System.out.println("Bu tub son emas,chunki bo'luvchilari :" + count +"ta");
-        }
-    }
+        int n = 3;
+        int b;
+        int sum = 0;
+            for (int i=1; i<=n; i++){
+               b = i*10+i;
+               sum += b;
+                System.out.println(b);
+            }
+            System.out.println("BU: "+n+" ta sondan hosil bo'lgan ifodaning yig'indisi: "+sum+" ga teng");
+       }
 }
