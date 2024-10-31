@@ -1,4 +1,4 @@
-package practics;
+package practicsNestedLoop;
 
 public class Practisc1 {
     public static void main(String[] args) {

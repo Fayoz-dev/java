@@ -1,3 +1,5 @@
+package practicsNestedLoop;
+
 public class Palindrom {
     public static void main(String[] args) {
         int a = 10;
@@ -16,6 +18,6 @@ public class Palindrom {
                 counter++;
             }
         }
-        System.out.println("Palindrom sonlar soni: " + counter+" ta");
+        System.out.println("practics.Palindrom sonlar soni: " + counter+" ta");
     }
 }
