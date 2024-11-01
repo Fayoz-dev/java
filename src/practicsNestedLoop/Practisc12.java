@@ -8,6 +8,7 @@ public class Practisc12 {
          for (int j=0;j<(i-a+1);j++){
           System.out.println(i);
          }
+        System.out.println();
       }
     }
 }
