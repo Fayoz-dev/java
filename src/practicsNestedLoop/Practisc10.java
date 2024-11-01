@@ -1,5 +1,4 @@
 package practicsNestedLoop;
-
 public class Practisc10 {
     public static void main(String[] args) {
         int n = 3;
