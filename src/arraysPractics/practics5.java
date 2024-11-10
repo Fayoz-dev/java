@@ -1,4 +1,4 @@
-package arrayPractics;
+package arraysPractics;
 
 public class practics5 {
     public static void main(String[] args) {
