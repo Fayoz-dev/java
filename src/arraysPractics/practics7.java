@@ -1,13 +1,13 @@
 package arraysPractics;
 
-public class practis6 {
+public class practics7 {
     public static void main(String[] args) {
-        int n = 7;
+        int n = 5;
         int[] numbers = new int[n];
-        int num = 1;
+        int num = 2;
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = num;
-            num+=2;
+            num*=2;
         }
         for (int i = 0; i < numbers.length; i++) {
             System.out.println(numbers[i]);
