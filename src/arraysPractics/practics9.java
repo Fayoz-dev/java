@@ -3,6 +3,7 @@ package arraysPractics;
 public class practics9 {
     public static void main(String[] args) {
         int n = 7;
+
         int[] numbers = new int[n];
         if (n > 0) numbers[0] = 0;
         if (n > 1) numbers[1] = 1;
