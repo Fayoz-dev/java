@@ -7,7 +7,7 @@ public class practics8 {
         int num = 2;
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = num;
-            num+=3;
+            num += 3;
         }
         for (int i = 0; i < numbers.length; i++) {
             System.out.println(numbers[i]);
